@@ -51,9 +51,40 @@ body{
     text-align: right;
 }
 
+
+/* section introduction */
+
+#introduction{
+    padding: 7% 10% 5%;
+}
+
+
+.intro-img{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+}
+
+.intro.content{
+
+}
+
+.intro-heading{
+    font-size: 2.3rem;
+    margin-bottom: 2%;
+    letter-spacing: 0.1rem;
+}
+
+.intro-text{
+    font-size: 1.30rem;
+}
+
+/* course section */
+
 #courses{
     padding: 6% 10%;
-
+    clear: both;
+    background-color: rgb(164, 244, 240);
 }
 
 .col-lg-4{
@@ -70,3 +101,5 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+
