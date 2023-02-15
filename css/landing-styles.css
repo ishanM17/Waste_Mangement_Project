@@ -70,3 +70,12 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+.card-title{
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
