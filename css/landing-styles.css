@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(42, 40, 40);
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 7%;
+}
+
+#title{
+    text-align: center;
+}
+
+.logo-img{
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+.title-body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-content{
+    width: 50%;
+}
