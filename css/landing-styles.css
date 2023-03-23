@@ -120,3 +120,24 @@
     font-weight: 500;
 }
 
+
+.service-item{
+    box-shadow: 0 0 45px gray;
+    transition: all 0.5s ease-in-out;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.service-item:hover{
+    scale: 110%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.image
+{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+.service-item{
+    box-shadow: 0 0 45px gray;
+    transition: all 0.5s ease-in-out;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.service-item:hover{
+    scale: 110%;
+    transition: all 0.5s ease-in-out;
+}
