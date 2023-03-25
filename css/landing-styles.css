@@ -87,45 +87,34 @@
 
 /* course section */
 
-#courses{
+.courses{
     padding: 5% 10% 3%;
     clear: both;
     background-color: rgb(164, 244, 240);
-}
+} 
 
 .col-lg-4{
     padding: 4%;
 }
 
-.card{
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 20vh;
-    /* background-image: url("../images/segregation-display-img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+
+.c-image{
+    padding: 0px 10px 10px 10px;
+    width: 300px;
+    height: 170px;
 }
 
-.card-img{
-    width: 100%;
-    height: 20vh;
+.crs-div
+{
+    background-color: white;
 }
-
-
-.card-title{
-    padding: 10px;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
 
 .service-item{
     box-shadow: 0 0 45px gray;
     transition: all 0.5s ease-in-out;
     margin-top: 6px;
     margin-bottom: 6px;
+    background-color: white;
 }
 
 .service-item:hover{
@@ -133,11 +122,3 @@
     transition: all 0.5s ease-in-out;
 }
 
-
-.image
-{
-    width: 100%;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
-}
