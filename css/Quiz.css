@@ -1,0 +1,21 @@
+#quiz{
+    margin: 130px 10%;
+}
+
+.question{
+    font-size: 1.9rem;
+}
+
+label{
+    font-size: 1.7rem;
+    margin: 30px;
+}
+
+input[type="radio"]{
+    height: 16px;
+    width: 16px;
+}
+
+.red{
+    background-color: rgb(255, 126, 126);
+}
