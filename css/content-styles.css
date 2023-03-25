@@ -7,6 +7,10 @@ body{
     padding: 0% 10%;
 }
 
+#title{
+    display: flex;
+}
+
 .title-heading{
     font-family: "Dancing SCript", cursive;
     font-weight: 900;
@@ -15,9 +19,12 @@ body{
 }
 
 .main-heading{
-    margin: 6% auto;
-    font-size: 2.8rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 3% auto 6%;
+    font-size: 3rem;
+    font-weight: 600;
     text-align: center;
+    letter-spacing: 0.1rem;
 }
 
 #video-container{
@@ -39,8 +46,10 @@ li{
 }
 
 .sub-heading{
+    font-family: 'Roboto Mono', monospace;
     margin-top: 70px;
     font-size: 2rem;
+    font-weight: 500;
     text-decoration: underline;
     letter-spacing: 0.1rem;
 }
@@ -72,4 +81,10 @@ li{
     font-size: 1.5rem;
     height: 50px;
     width: 500px;
+}
+
+.title-butn{
+    width: 170px;
+    margin: 45px 20px 0 auto;
+
 }
