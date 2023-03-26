@@ -1,15 +1,13 @@
 const answers = [
-    [],
-    [],
-    [],
-    ["b", "a", "b", "d", "a"],
-    [],
-    [],
-    [],
-    [],
+    ["a", "c", "c", "d", "c"], //segregation
+    ["c", "b", "d", "a", "c"], //landfills
+    ["c", "a", "b", "c", "a"], //solid
+    ["b", "a", "b", "d", "a"], //hazardous
+    [], //radioactive
+    ["d", "b", "a", "b", "c"], //ewaste
+    ["d", "a", "d", "b", "d"], //wastewater
+    ["a", "b", "c", "d", "a"], //biomedical
 ];
-
-//0=segregation, 1=landfills, 2=solid, 3=hazardous, 4=radioactive, 5=ewaste, 6=wastewater, 7=biomedical 
 
 function displayResult(index){
     let correctAnswers = answers[index];
@@ -27,8 +25,12 @@ function displayResult(index){
             }
         }
     }
-    console.log(userAnswers);
-    console.log(correctAnswers);
+
+    if(userAnswers.length !== 5){
+        alert("please attempt all questions!");
+        return;
+    }
+
     for(let i=0; i<userAnswers.length; i++){
         if(userAnswers[i] !== correctAnswers[i]){
             document.getElementById("question" + (i+1)).style.backgroundColor = "#CD5C5C";
