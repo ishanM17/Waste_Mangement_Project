@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wastewater Management Quiz</title>
+    <link rel="stylesheet" href="./css/content-styles.css">
+    <link rel="stylesheet" href="./css/Quiz.css">
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <section id="title">
+            <h1 class="title-heading">.EduWaste</h1>
+            <button class="butn title-butn" onclick="location.href='./Wastewater.html'">Back to Theory</button>
+            <button class="butn title-butn" onclick="location.href='./landing.html'" style="margin-left: 20px;">Back to Topics</button>
+        </section>
+        <h1 class="main-heading">Waste Water Management</h1>
+        <section id="quiz">
+            <form name="wastewater-form">
+                <div class="question1">
+                    <p class="question">1. What is the purpose of wastewater management?</p>
+                    <input type="radio" name="a1" value="a"><label>To reduce the cost of water treatment</label><br><br>
+                    <input type="radio" name="a1" value="b"><label>To prevent the pollution of water bodies, soil, and air</label><br><br>
+                    <input type="radio" name="a1" value="c"><label>To conserve water resources</label><br><br>
+                    <input type="radio" name="a1" value="d"><label>All of the above</label><br><br>
+                </div>
+                <div class="question1">
+                    <p class="question">2. What are the stages involved in wastewater treatment?</p>
+                    <input type="radio" name="a2" value="a"><label>Primary treatment, secondary treatment, and tertiary treatment</label><br><br>
+                    <input type="radio" name="a2" value="b"><label>Screening, disinfection, and sedimentation</label><br><br>
+                    <input type="radio" name="a2" value="c"><label>Activated sludge, grit removal, and trickling filters</label><br><br>
+                    <input type="radio" name="a2" value="d"><label>None of the above</label><br><br>
+                </div>
+                <div class="question1">
+                    <p class="question">3. What are the benefits of effective wastewater management?</p>
+                    <input type="radio" name="a3" value="a"><label>Protecting public health</label><br><br>
+                    <input type="radio" name="a3" value="b"><label>Conserving water resources</label><br><br>
+                    <input type="radio" name="a3" value="c"><label>Reducing the cost of water treatment</label><br><br>
+                    <input type="radio" name="a3" value="d"><label>All of the above</label><br><br>
+                </div>
+                <div class="question1">
+                    <p class="question">4. What are the two types of wastewater management systems?</p>
+                    <input type="radio" name="a4" value="a"><label>Industrial and residential</label><br><br>
+                    <input type="radio" name="a4" value="b"><label>Centralized and decentralized</label><br><br>
+                    <input type="radio" name="a4" value="c"><label>Primary and secondary</label><br><br>
+                    <input type="radio" name="a4" value="d"><label>None of the above</label><br><br>
+                </div>
+                <div class="question1">
+                    <p class="question">5. Which of the following is NOT a part of the primary treatment stage in wastewater management?</p>
+                    <input type="radio" name="a5" value="a"><label>Screening</label><br><br>
+                    <input type="radio" name="a5" value="b"><label>Grit removal</label><br><br>
+                    <input type="radio" name="a5" value="c"><label>Sedimentation</label><br><br>
+                    <input type="radio" name="a5" value="d"><label> Disinfection</label><br><br>
+                </div>
+            </form>
+            <div style="text-align: center;">
+                <button class="butn">Check Answers!</button>
+            </div>
+            
+        </section>
+
+    </div>
 </body>
 </html>
