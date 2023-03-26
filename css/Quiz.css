@@ -1,5 +1,5 @@
 #quiz{
-    margin: 130px 10%;
+    margin: 130px 10% 0;
 }
 
 .question{
@@ -16,6 +16,19 @@ input[type="radio"]{
     width: 16px;
 }
 
-.red{
-    background-color: rgb(255, 126, 126);
+.q-div{
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+.result{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.result-text{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
 }
