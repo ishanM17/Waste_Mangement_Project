@@ -39,9 +39,6 @@ function displayResult(index){
         }
     }
 
-    let result = document.getElementsByClassName("result")[0];
-    let resultText = document.createElement("h1");
+    let resultText = document.getElementsByClassName("result-text")[0];
     resultText.innerHTML = "Score: " + score + "/5";
-    resultText.classList.add("result-text");
-    result.prepend(resultText);
 }
