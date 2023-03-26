@@ -23,35 +23,35 @@
         <h1 class="main-heading">Waste Segregation</h1>
         <section id="quiz">
             <form name="segregation-form">
-                <div class="question1">
+                <div id="question1" class="q-div">
                     <p class="question">1. What is waste segregation?</p>
                     <input type="radio" name="a1" value="a"><label>The process of separating different types of waste materials into distinct categories.</label><br><br>
                     <input type="radio" name="a1" value="b"><label>The process of mixing different types of waste materials together.</label><br><br>
                     <input type="radio" name="a1" value="c"><label>The process of reducing the amount of waste sent to landfills.</label><br><br>
                     <input type="radio" name="a1" value="d"><label>The process of burning waste materials at high temperatures.</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question2" class="q-div">
                     <p class="question">2. What is source separation?</p>
                     <input type="radio" name="a2" value="a"><label>The process of separating different types of waste materials using machines.</label><br><br>
                     <input type="radio" name="a2" value="b"><label>The process of manually separating different types of waste materials by hand.</label><br><br>
                     <input type="radio" name="a2" value="c"><label>The process of separating different types of waste materials at the point of origin.</label><br><br>
                     <input type="radio" name="a2" value="d"><label>The process of decomposing organic waste materials into compost.</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question3" class="q-div">
                     <p class="question">3. Which method is used to sort waste materials based on their physical properties using machines?</p>
                     <input type="radio" name="a3" value="a"><label>Composting</label><br><br>
                     <input type="radio" name="a3" value="b"><label>Incineration</label><br><br>
                     <input type="radio" name="a3" value="c"><label>Mechanical sorting</label><br><br>
                     <input type="radio" name="a3" value="d"><label>Manual sorting</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question4" class="q-div">
                     <p class="question">4. What are the different types of waste materials that require different methods of segregation?</p>
                     <input type="radio" name="a4" value="a"><label>Recyclable materials</label><br><br>
                     <input type="radio" name="a4" value="b"><label>Organic waste</label><br><br>
                     <input type="radio" name="a4" value="c"><label>Hazardous waste</label><br><br>
                     <input type="radio" name="a4" value="d"><label>All of the above</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question5" class="q-div">
                     <p class="question">5. What is the process of decomposing organic waste materials into a nutrient-rich soil amendment known as compost?</p>
                     <input type="radio" name="a5" value="a"><label>Incineration</label><br><br>
                     <input type="radio" name="a5" value="b"><label>Mechanical sorting</label><br><br>
@@ -59,12 +59,14 @@
                     <input type="radio" name="a5" value="d"><label>Manual sorting</label><br><br>
                 </div>
             </form>
-            <div style="text-align: center;">
-                <button class="butn">Check Answers!</button>
+            <div class="result">
+                <h1 class="result-text"></h1>
+                <button class="butn" onclick="displayResult(0)">Check Answers!</button>
             </div>
             
         </section>
 
     </div>
+    <script src="quiz.js"></script>
 </body>
 </html>

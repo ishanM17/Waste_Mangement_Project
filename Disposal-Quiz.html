@@ -23,35 +23,35 @@
         <h1 class="main-heading">Disposal of solid Waste</h1>
         <section id="quiz">
             <form name="dsiposal-form">
-                <div class="question1">
+                <div id="question1" class="q-div">
                     <p class="question">1. Which economy follows take-make-dispose?</p>
                     <input type="radio" name="a1" value="a"><label>Circular economy for solid waste</label><br><br>
                     <input type="radio" name="a1" value="b"><label>Linear economy for gaseous waste</label><br><br>
                     <input type="radio" name="a1" value="c"><label>Linear economy for solid waste</label><br><br>
                     <input type="radio" name="a1" value="d"><label>Linear economy for liquid was</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question2" class="q-div"> 
                     <p class="question">2. Which is the benefit of linear economy?</p>
                     <input type="radio" name="a2" value="a"><label>Supports a nation’s economic growth and environmental sustainability</label><br><br>
                     <input type="radio" name="a2" value="b"><label>Releases the least amount of carbon footprints into the environment</label><br><br>
                     <input type="radio" name="a2" value="c"><label>Lessens the use of non-renewable or natural resources</label><br><br>
                     <input type="radio" name="a2" value="d"><label>Focuses on the objective of Zero Environmental Wastage, provides a wide scope of opportunities for compani</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question3" class="q-div">
                     <p class="question">3. Which disposal method converts biodegradable waste into compost?</p>
                     <input type="radio" name="a3" value="a"><label>Fermentation</label><br><br>
                     <input type="radio" name="a3" value="b"><label>Composting</label><br><br>
                     <input type="radio" name="a3" value="c"><label>Incineration</label><br><br>
                     <input type="radio" name="a3" value="d"><label>Sea dumping</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question4" class="q-div">
                     <p class="question">4. Sea dumping can be carried out in:</p>
                     <input type="radio" name="a4" value="a"><label>Hilly regions</label><br><br>
                     <input type="radio" name="a4" value="b"><label>Plains</label><br><br>
                     <input type="radio" name="a4" value="c"><label>Coastal cities</label><br><br>
                     <input type="radio" name="a4" value="d"><label>Forests</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question5" class="q-div">
                     <p class="question">5. How deep is a trench excavated for sanitary landfill?</p>
                     <input type="radio" name="a5" value="a"><label>3 to 5 m</label><br><br>
                     <input type="radio" name="a5" value="b"><label>1 to 3 m</label><br><br>
@@ -59,12 +59,14 @@
                     <input type="radio" name="a5" value="d"><label>7 to 9 m</label><br><br>
                 </div>
             </form>
-            <div style="text-align: center;">
-                <button class="butn">Check Answers!</button>
+            <div class="result">
+                <h1 class="result-text"></h1>
+                <button class="butn" onclick="displayResult(2)">Check Answers!</button>
             </div>
             
         </section>
 
     </div>
+    <script src="quiz.js"></script>
 </body>
 </html>

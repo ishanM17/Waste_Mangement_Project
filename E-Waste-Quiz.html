@@ -23,35 +23,35 @@
         <h1 class="main-heading">E-Waste</h1>
         <section id="quiz">
             <form name="ewaste-form">
-                <div class="question1">
+                <div id="question1" class="q-div">
                     <p class="question">1. Which cannot be considered as an e-waste?</p>
                     <input type="radio" name="a1" value="a"><label>Metals</label><br><br>
                     <input type="radio" name="a1" value="b"><label>CRT’s</label><br><br>
                     <input type="radio" name="a1" value="c"><label>Circuit boards</label><br><br>
                     <input type="radio" name="a1" value="d"><label>Printed papers</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question2" class="q-div">
                     <p class="question">2. Which toxic substance make the e-waste hazardous?</p>
                     <input type="radio" name="a2" value="a"><label>Sodium</label><br><br>
                     <input type="radio" name="a2" value="b"><label>Lead</label><br><br>
                     <input type="radio" name="a2" value="c"><label>Silver</label><br><br>
                     <input type="radio" name="a2" value="d"><label>Gold</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question3" class="q-div">
                     <p class="question">3. Which is the correct chronology of steps to recycle e-waste?</p>
                     <input type="radio" name="a3" value="a"><label>Collecting and transporting, shredding and sorting, dust extraction, magnetic separation, water separation, purification of waste stream and preparing recycled material for sale.</label><br><br>
                     <input type="radio" name="a3" value="b"><label>Collecting and transporting, dust extraction, magnetic separation, water separation, purification of waste stream and preparing recycled material for sale, shredding and sorting.</label><br><br>
                     <input type="radio" name="a3" value="c"><label>Collecting and transporting, shredding and sorting, magnetic separation, dust extraction, water separation, purification of waste stream and preparing recycled material for sale.</label><br><br>
                     <input type="radio" name="a3" value="d"><label>Collecting and transporting, shredding and sorting, magnetic separation, dust extraction, purification of waste stream and preparing recycled material for sale, water separation.</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question4" class="q-div">
                     <p class="question">4. For 1 ton production of laptops, how many tonnes of carbon-dioxide is emitted?</p>
                     <input type="radio" name="a4" value="a"><label>50 tonnes</label><br><br>
                     <input type="radio" name="a4" value="b"><label>10 tonnes</label><br><br>
                     <input type="radio" name="a4" value="c"><label>10 tonnes</label><br><br>
                     <input type="radio" name="a4" value="d"><label>15 tonnes</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question5" class="q-div">
                     <p class="question">5.  Who is not affected by e-waste?</p>
                     <input type="radio" name="a5" value="a"><label>Residents living near recycling sites</label><br><br>
                     <input type="radio" name="a5" value="b"><label>E-waste recycling workers</label><br><br>
@@ -59,12 +59,14 @@
                     <input type="radio" name="a5" value="d"><label>Children</label><br><br>
                 </div>
             </form>
-            <div style="text-align: center;">
-                <button class="butn">Check Answers!</button>
+            <div class="result">
+                <h1 class="result-text"></h1>
+                <button class="butn" onclick="displayResult(4)">Check Answers!</button>
             </div>
             
         </section>
 
     </div>
+    <script src="quiz.js"></script>
 </body>
 </html>

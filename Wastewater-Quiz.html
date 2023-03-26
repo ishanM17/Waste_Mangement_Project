@@ -23,35 +23,35 @@
         <h1 class="main-heading">Waste Water Management</h1>
         <section id="quiz">
             <form name="wastewater-form">
-                <div class="question1">
+                <div id="question1" class="q-div">
                     <p class="question">1. What is the purpose of wastewater management?</p>
                     <input type="radio" name="a1" value="a"><label>To reduce the cost of water treatment</label><br><br>
                     <input type="radio" name="a1" value="b"><label>To prevent the pollution of water bodies, soil, and air</label><br><br>
                     <input type="radio" name="a1" value="c"><label>To conserve water resources</label><br><br>
                     <input type="radio" name="a1" value="d"><label>All of the above</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question2" class="q-div">
                     <p class="question">2. What are the stages involved in wastewater treatment?</p>
                     <input type="radio" name="a2" value="a"><label>Primary treatment, secondary treatment, and tertiary treatment</label><br><br>
                     <input type="radio" name="a2" value="b"><label>Screening, disinfection, and sedimentation</label><br><br>
                     <input type="radio" name="a2" value="c"><label>Activated sludge, grit removal, and trickling filters</label><br><br>
                     <input type="radio" name="a2" value="d"><label>None of the above</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question3" class="q-div">
                     <p class="question">3. What are the benefits of effective wastewater management?</p>
                     <input type="radio" name="a3" value="a"><label>Protecting public health</label><br><br>
                     <input type="radio" name="a3" value="b"><label>Conserving water resources</label><br><br>
                     <input type="radio" name="a3" value="c"><label>Reducing the cost of water treatment</label><br><br>
                     <input type="radio" name="a3" value="d"><label>All of the above</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question4" class="q-div">
                     <p class="question">4. What are the two types of wastewater management systems?</p>
                     <input type="radio" name="a4" value="a"><label>Industrial and residential</label><br><br>
                     <input type="radio" name="a4" value="b"><label>Centralized and decentralized</label><br><br>
                     <input type="radio" name="a4" value="c"><label>Primary and secondary</label><br><br>
                     <input type="radio" name="a4" value="d"><label>None of the above</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question5" class="q-div">
                     <p class="question">5. Which of the following is NOT a part of the primary treatment stage in wastewater management?</p>
                     <input type="radio" name="a5" value="a"><label>Screening</label><br><br>
                     <input type="radio" name="a5" value="b"><label>Grit removal</label><br><br>
@@ -59,12 +59,14 @@
                     <input type="radio" name="a5" value="d"><label> Disinfection</label><br><br>
                 </div>
             </form>
-            <div style="text-align: center;">
-                <button class="butn">Check Answers!</button>
+            <div class="result">
+                <h1 class="result-text"></h1>
+                <button class="butn" onclick="displayResult(6)">Check Answers!</button>
             </div>
             
         </section>
 
     </div>
+    <script src="quiz.js"></script>
 </body>
 </html>

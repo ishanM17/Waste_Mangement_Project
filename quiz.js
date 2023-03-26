@@ -3,7 +3,7 @@ const answers = [
     ["c", "b", "d", "a", "c"], //landfills
     ["c", "a", "b", "c", "a"], //solid
     ["b", "a", "b", "d", "a"], //hazardous
-    [], //radioactive
+    ["a", "d", "b", "c", "d"], //radioactive
     ["d", "b", "a", "b", "c"], //ewaste
     ["d", "a", "d", "b", "d"], //wastewater
     ["a", "b", "c", "d", "a"], //biomedical

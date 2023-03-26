@@ -23,35 +23,35 @@
         <h1 class="main-heading">Radioactive Waste Management</h1>
         <section id="quiz">
             <form name="radioactive-form">
-                <div class="question1">
+                <div id="question1" class="q-div">
                     <p class="question">1. Which of the following element is most hazardous to humans ?</p>
-                    <input type="radio" name="a1" value="a"><label>Phosphorous</label><br><br>
+                    <input type="radio" name="a1" value="a"><label>Uranium</label><br><br>
                     <input type="radio" name="a1" value="b"><label>Sulfur</label><br><br>
                     <input type="radio" name="a1" value="c"><label>carbon</label><br><br>
-                    <input type="radio" name="a1" value="d"><label>Uranium</label><br><br>
+                    <input type="radio" name="a1" value="d"><label>Phosphorous</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question2" class="q-div">
                     <p class="question">2. Which of the following is NOT a category of radioactive waste? </p>
                     <input type="radio" name="a2" value="a"><label>High-level waste </label><br><br>
                     <input type="radio" name="a2" value="b"><label>Intermediate-level waste </label><br><br>
                     <input type="radio" name="a2" value="c"><label>Low-level waste </label><br><br>
                     <input type="radio" name="a2" value="d"><label>Non-radioactive waste</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question3" class="q-div">
                     <p class="question">3. What is the primary method of managing high-level radioactive waste? </p>
                     <input type="radio" name="a3" value="a"><label>Storage in above-ground casks</label><br><br>
                     <input type="radio" name="a3" value="b"><label>Disposal in a deep geological repository </label><br><br>
                     <input type="radio" name="a3" value="c"><label>Recycling</label><br><br>
                     <input type="radio" name="a3" value="d"><label>Incineration</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question4" class="q-div">
                     <p class="question">4. Which of the following is an example of low-level radioactive waste? </p>
                     <input type="radio" name="a4" value="a"><label>Spent fuel rods from a nuclear power plant </label><br><br>
                     <input type="radio" name="a4" value="b"><label>Medical waste from radiation therapy </label><br><br>
                     <input type="radio" name="a4" value="c"><label>Clothing worn by nuclear power plant workers </label><br><br>
                     <input type="radio" name="a4" value="d"><label>Contaminated soil from a nuclear accident</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question5" class="q-div">
                     <p class="question">5. Which of the following is a major challenge associated with the management of radioactive waste?</p>
                     <input type="radio" name="a5" value="a"><label>Disposal site availability </label><br><br>
                     <input type="radio" name="a5" value="b"><label>Public perception and acceptance</label><br><br>
@@ -59,10 +59,13 @@
                     <input type="radio" name="a5" value="d"><label>All of the above</label><br><br>
                 </div>
             </form>
-            <div style="text-align: center;">
-                <button class="butn">Check Answers!</button>
+            <div class="result">
+                <h1 class="result-text"></h1>
+                <button class="butn" onclick="displayResult(4)">Check Answers!</button>
             </div>
             
         </section>
+    </div>
+    <script src="quiz.js"></script>
 </body>
 </html>

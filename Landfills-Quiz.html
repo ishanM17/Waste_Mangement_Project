@@ -23,35 +23,35 @@
         <h1 class="main-heading">Landfills</h1>
         <section id="quiz">
             <form name="landfill-form">
-                <div class="question1">
+                <div id="question1" class="q-div">
                     <p class="question">1. What is the purpose of a liner system in a landfill?</p>
                     <input type="radio" name="a1" value="a"><label>To collect and remove leachate</label><br><br>
                     <input type="radio" name="a1" value="b"><label>To capture and control methane gas emissions</label><br><br>
                     <input type="radio" name="a1" value="c"><label>To prevent waste from seeping into the surrounding soil and groundwater</label><br><br>
                     <input type="radio" name="a1" value="d"><label>To maximize the space available for waste disposal</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question2" class="q-div">
                     <p class="question">2. What is leachate, and how is it managed in a landfill?</p>
                     <input type="radio" name="a2" value="a"><label>Leachate is a byproduct of methane gas production and is burned off.</label><br><br>
                     <input type="radio" name="a2" value="b"><label>Leachate is a liquid produced by waste decomposition and is collected and treated before being discharged to a wastewater treatment plant or other approved facility.</label><br><br>
                     <input type="radio" name="a2" value="c"><label>Leachate is a type of hazardous waste that is removed from the landfill and disposed of at a specialized facility.</label><br><br>
                     <input type="radio" name="a2" value="d"><label>Leachate is the residual waste that remains in the landfill after all useful materials have been removed.</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question3" class="q-div">
                     <p class="question">3. Why is gas collection necessary in landfills?</p>
                     <input type="radio" name="a3" value="a"><label>To prevent the release of greenhouse gases into the atmosphere</label><br><br>
                     <input type="radio" name="a3" value="b"><label>To generate energy from captured methane gas</label><br><br>
                     <input type="radio" name="a3" value="c"><label>To prevent explosions within the landfill</label><br><br>
                     <input type="radio" name="a3" value="d"><label>All of the above</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question4" class="q-div">
                     <p class="question">4. What is the main purpose of monitoring and maintenance in landfills?</p>
                     <input type="radio" name="a4" value="a"><label>To ensure that waste is being properly contained and that there are no environmental or health hazards present</label><br><br>
                     <input type="radio" name="a4" value="b"><label>To maximize the amount of waste that can be disposed of in the landfill</label><br><br>
                     <input type="radio" name="a4" value="c"><label>To reduce the cost of landfill operation by minimizing the need for inspections and repairs</label><br><br>
                     <input type="radio" name="a4" value="d"><label>To increase the amount of methane gas produced by the landfill</label><br><br>
                 </div>
-                <div class="question1">
+                <div id="question5" class="q-div">
                     <p class="question">5. What is the current focus in waste management with regards to landfills?</p>
                     <input type="radio" name="a5" value="a"><label>Increasing the amount of waste that is sent to landfills</label><br><br>
                     <input type="radio" name="a5" value="b"><label>Eliminating the use of landfills entirely</label><br><br>
@@ -59,12 +59,14 @@
                     <input type="radio" name="a5" value="d"><label>Using landfills as a source of renewable energy</label><br><br>
                 </div>
             </form>
-            <div style="text-align: center;">
-                <button class="butn">Check Answers!</button>
+            <div class="result">
+                <h1 class="result-text"></h1>
+                <button class="butn" onclick="displayResult(1)">Check Answers!</button>
             </div>
             
         </section>
 
     </div>
+    <script src="quiz.js"></script>
 </body>
 </html>
